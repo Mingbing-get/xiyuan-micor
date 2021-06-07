@@ -1,0 +1,100 @@
+.svg-box {
+    width: 100%;
+    height: 500px;
+}
+
+.draw-box {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+
+.drawsvg-menu.ant-menu-horizontal:not(.ant-menu-dark) .ant-menu-item {
+    margin: 0 5px;
+}
+
+.drawsvg-menu.ant-menu-horizontal:not(.ant-menu-dark) .ant-menu-submenu {
+    margin: 0 10px;
+}
+
+.drawsvg .ant-menu-vertical.ant-menu-sub {
+    min-width: 80px;
+}
+
+.drawsvg .ant-menu-vertical .ant-menu-item:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.drawsvg .ant-menu-vertical .ant-menu-item {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+}
+
+.drawsvg .ant-menu-vertical .ant-menu-item-group-list .ant-menu-item {
+    padding-left: 20px;
+}
+
+.drawsvg .ant-menu-item-group-title {
+    height: 25px;
+    padding: 5px;
+    line-height: 25px;
+}
+
+.smock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -10;
+}
+
+.my-confirm.ant-modal-confirm .ant-modal-body {
+    padding: 10px;
+}
+
+.edit-box {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.edit-box .edit-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.edit-box .edit-one .ant-input-number,
+.edit-box .edit-one input {
+    width: 80px;
+    margin: 0 10px 0 5px;
+}
+
+.edit-box .edit-one .ant-slider {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.setting-box {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.setting-box .setting-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.setting-box .setting-one .ant-input-number,
+.setting-box .setting-one input {
+    width: 80px;
+    margin: 0 10px 0 5px;
+}
+
+.setting-box .setting-one .ant-slider {
+    width: 100px;
+    margin-left: 10px;
+}

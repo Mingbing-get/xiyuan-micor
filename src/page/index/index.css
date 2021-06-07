@@ -1,0 +1,14 @@
+.logo {
+    width: 117px;
+    height: 44px;
+    background-size: cover;
+    margin: 10px 13px;
+    float: left;
+}
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+.ant-layout-header {
+     background: #fff !important;
+}

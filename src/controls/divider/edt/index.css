@@ -1,0 +1,8 @@
+.divider-edt-box {
+
+}
+
+.divider-edt-box .ant-input-group.ant-input-group-compact {
+    display: flex;
+    flex-direction: row;
+}

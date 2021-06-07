@@ -1,0 +1,36 @@
+.article-box {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.article-box.gray {
+    color: #999;
+    border-bottom: none;
+}
+
+.article-box.gray>h5 {
+    cursor: pointer;
+    margin-bottom: 0;
+    color: #999;
+}
+
+.article-box>h4 {
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.article-box>p {
+    -webkit-box-orient: vertical;
+    height: 44px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+}
+
+.article-box .show-mun>span {
+    margin-right: 15px;
+    font-size: 12px;
+}

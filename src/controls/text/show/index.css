@@ -1,0 +1,17 @@
+.show-text-box {
+    width: 100%;
+}
+
+.show-text-box>p {
+    margin-bottom: 0;
+}
+
+.show-text-box>pre {
+    margin: 15px 3px;
+    padding: 5px 5px 0;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #333;
+    white-space: pre;
+}

@@ -1,0 +1,8 @@
+.serch-page-box {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.serch-page-box .ant-input-group-lg .ant-select-single .ant-select-selector .ant-select-selection-item {
+    line-height: 38px;
+}

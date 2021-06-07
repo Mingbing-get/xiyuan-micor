@@ -1,0 +1,53 @@
+.message-box {
+    padding-top: 45px;
+    padding-bottom: 54px;
+}
+
+.message-box .message-muser-all {
+    padding: 0 10px;
+}
+
+.message-box .message-muser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.message-box .message-muser>div:last-child>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.message-box .message-muser>div:last-child>div>p {
+    margin: 0;
+    -webkit-box-orient: vertical;
+    height: 19px;
+    line-height: 19px;
+    width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    word-break: break-all;
+    color: #999;
+}
+
+.message-box .message-muser>div:first-child {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+.message-box .message-muser>div:last-child {
+    flex: 1;
+}
+
+.message-box .message-muser .message-name-time>span:first-child {
+    font-size: 16px;
+    font-weight: bold;
+}

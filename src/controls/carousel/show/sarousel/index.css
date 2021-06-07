@@ -1,0 +1,88 @@
+.sarousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.sarousel>iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    display: block;
+    z-index: -999;
+}
+/*图片的样式*/
+.sarousel .img-box {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.sarousel .img-box li {
+    float: left;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 100%;
+}
+
+/*点的样式*/
+.sarousel .point-box {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(200,200,200,0.4);
+    border-radius: 10px;
+}
+
+.sarousel .point-box li {
+    float: left;
+    padding: 5px 5px;
+}
+
+.sarousel .point-box li a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.sarousel .point-box li a.active {
+    background-color: #1890ff;
+}
+/*左右按钮的样式*/
+.sarousel .move-left,
+.sarousel .move-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(200,200,200,0.4);
+    color: rgba(255,255,255,0.7);
+    font-size: 60px;
+    border-radius: 5px;
+    display: none;
+}
+
+.sarousel .move-left {
+    left: 0;
+}
+
+.sarousel .move-right {
+    right: 0;
+}
+
+.sarousel:hover .move-left,
+.sarousel:hover .move-right {
+    display: block;
+}

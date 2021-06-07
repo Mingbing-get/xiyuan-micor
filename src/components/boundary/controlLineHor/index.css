@@ -1,0 +1,20 @@
+.control-line-hor {
+    position: absolute;
+    padding: 3px 0;
+    width: 100%;
+    left:0;
+    cursor: ns-resize;
+    height: 1px;
+    z-index: 100;
+    box-sizing: content-box;
+}
+
+.control-line-hor>div {
+    width: 100%;
+    border-bottom: 1px solid #1890ff;
+    height: 0;
+}
+
+.control-line-hor:hover>div {
+    box-shadow: 0 0 3px #1890ff;
+}

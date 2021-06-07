@@ -1,0 +1,53 @@
+.draft-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.draft-box .draft-card {
+    width: 300px;
+    margin: 20px 0;
+}
+
+.draft-box>iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    display: block;
+    z-index: -999;
+}
+
+.draft-box .draft-card:hover {
+    transform: translate(-10px, -10px);
+    transition: all 0.3s ease;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+.draft-box .draft-card .show-two-p {
+    -webkit-box-orient: vertical;
+    height: 44px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+}
+
+.draft-box .draft-card .show-one-p {
+    -webkit-box-orient: vertical;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    word-break: break-all;
+}

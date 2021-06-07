@@ -1,0 +1,12 @@
+.image-edt-box {
+    border: 1px solid #ddd;
+}
+
+.image-edt-box .ant-input-group.ant-input-group-compact {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-edt-box .ant-upload-picture-card-wrapper {
+    margin-top: 10px;
+}

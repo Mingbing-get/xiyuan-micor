@@ -1,0 +1,21 @@
+.action-user-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.action-user-box .touxiang {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.action-user-box .btn-box>button {
+    margin-right: 10px;
+    border-radius: 16px;
+}

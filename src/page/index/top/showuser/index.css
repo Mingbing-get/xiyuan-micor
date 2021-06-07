@@ -1,0 +1,17 @@
+.showuser-box {
+
+}
+
+.showuser-box .info {
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.showuser-box .info .touxiang {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+    background-size: cover;
+    border-radius: 50%;
+}

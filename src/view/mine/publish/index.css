@@ -1,0 +1,24 @@
+.show-all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.show-all:last-child {
+    border-bottom: none;
+}
+.show-all:hover {
+    background-color: #eee;
+}
+.show-all .content {
+    flex: 1;
+}
+.show-all .content>p {
+    margin: 0;
+}
+.show-all .content>div>span {
+    margin-right: 20px;
+}

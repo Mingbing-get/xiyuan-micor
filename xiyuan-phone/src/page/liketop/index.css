@@ -1,0 +1,23 @@
+.like-top-box {
+    padding-top: 45px;
+    padding-bottom: 54px;
+}
+
+.like-top-box .like-top-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.like-top-box .like-top-one>span {
+    font-size: 25px;
+    font-weight: bold;
+    flex: 1;
+    text-align: center;
+}
+
+.like-top-box .like-top-one>.article-box {
+    flex: 7;
+    border-bottom: none;
+}

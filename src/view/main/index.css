@@ -1,0 +1,38 @@
+.main-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.serch-box {
+    width: 800px;
+    margin: 0 auto 20px;
+}
+
+.main-box .ant-card {
+    min-width: 400px;
+    width: 47%;
+}
+
+.main-box .ant-card .ant-card-head span {
+    cursor: pointer;
+}
+
+.main-box .ant-card .ant-card-body {
+    padding-top: 0;
+}
+
+.main-box .ant-card:nth-child(2n) {
+    margin-top: 100px;
+}
+
+.main-box .ant-card:nth-child(2n+1) {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 940px) {
+    .main-box .ant-card {
+        margin: 100px 0;
+    }
+}

@@ -1,0 +1,23 @@
+.publish-box {
+    padding-top: 45px;
+}
+
+.publish-box .publish-one-box{
+    margin-top: 10px;
+    padding: 0 5px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.publish-box .publish-one-box p {
+    margin-bottom: 0;
+}
+
+.publish-box .publish-one-box .show-all {
+    margin-bottom: 10px;
+}
+
+.publish-box .publish-one-box h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+}

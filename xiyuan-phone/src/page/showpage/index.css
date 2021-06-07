@@ -1,0 +1,70 @@
+.show-page-box-phone {
+    padding-top: 45px;
+}
+
+.show-page-box-phone .show-page-main {
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+.showpage-nolook {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.show-page-box {
+    width: 100%;
+}
+
+.show-page-box .page-title-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-page-box .page-title {
+    text-align: center;
+    margin-bottom: 0;
+    margin-right: 15px;
+}
+
+.show-page-box .page-title-box .ant-select-single .ant-select-selector {
+    height:24px;
+}
+
+.show-page-box .page-title-box .ant-select-single .ant-select-selector .ant-select-selection-item {
+    line-height: 22px;
+}
+
+.show-page-box .follow {
+    background-color: #1890ff;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 13px;
+}
+
+.show-page-box .follow.ygz {
+    background-color: #ccc;
+}
+
+.show-page-box .follow>span {
+    margin-right: 5px;
+}
+
+.show-page-box .show-page-send-agument {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.show-page-box .show-page-show-agument {
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.show-page-box .ant-comment-inner {
+    margin: 5px 0;
+}

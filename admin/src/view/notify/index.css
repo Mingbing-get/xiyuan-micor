@@ -1,0 +1,17 @@
+.comfir-box {
+    max-width: 500px;
+}
+
+.comfir-box>p {
+    -webkit-box-orient: vertical;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+}
+
+.comfir-box>p>span {
+    font-weight: bold;
+}

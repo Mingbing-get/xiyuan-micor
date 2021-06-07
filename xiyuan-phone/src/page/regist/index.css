@@ -1,0 +1,23 @@
+.regist-box {
+    padding-top: 45px;
+}
+
+.regist-box .ant-form-item {
+    margin-bottom: 0;
+}
+
+.regist-box .ant-form-item .ant-form-item-label {
+    padding-bottom: 0;
+}
+
+.regist-box .regist-btn-box {
+    padding-top: 10px;
+}
+
+.regist-box .regist-btn-box .ant-form-item-control-input-content {
+    text-align: center;
+}
+
+.regist-box .regist-btn-box .ant-form-item-control-input-content>button {
+    margin: 0 10px;
+}

@@ -1,0 +1,59 @@
+.showserch-box {
+    padding-top: 45px;
+}
+
+.showserch-box .navbar-title {
+    padding: 0 5px;
+    position: relative;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.showserch-box .navbar-title>div {
+    width: 200%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.showserch-box .navbar-title>div>input {
+    width: 50%;
+    background-color: rgba(200,200,200,0.2);
+    border: none;
+    outline: none;
+    line-height: 24px;
+    border-radius: 13px;
+    padding: 2px 13px 2px 29px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.showserch-box .ant-select-single {
+    height: 30px;
+    box-sizing: border-box;
+}
+.showserch-box .ant-select-single .ant-select-selector .ant-select-selection-item {
+    line-height: 30px;
+}
+.showserch-box .navbar-title>div>span {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    color: #1890ff;
+}
+.showserch-box .navbar-title>div>span>svg {
+    font-size: 20px;
+    font-weight: bold;
+}
+.showserch-box .navbar-title>div>select {
+    border-color: #ddd;
+}
+.showserch-box .navbar-title>div>select:hover {
+    border-color: #1890ff;
+}

@@ -1,0 +1,51 @@
+.talk-item {
+    display: flex;
+    margin: 10px 0;
+}
+
+.talk-item .talk-item-header {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.talk-item .talk-item-main {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.talk-item .talk-item-main .talk-item-time {
+    font-size: 12px;
+    color: rgba(0,0,0,0.6);
+    margin-top: 17px;
+    margin-bottom: 5px;
+}
+
+.talk-item .talk-item-main .talk-item-content{
+    max-width: 60%;
+    display: inline-block;
+    background-color: rgba(240,240,240,0.4);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+    padding: 5px;
+    border-radius: 5px;
+    word-break: break-all;
+}
+
+.talk-item-right {
+    flex-direction: row-reverse;
+}
+
+.talk-item-right .talk-item-main {
+    text-align: right;
+    margin-left: 0;
+    margin-right: 10px;
+}
+.talk-item-right .talk-item-main .talk-item-content {
+    text-align: left;
+    box-shadow: -3px 3px 3px rgba(0,0,0,0.1);
+}

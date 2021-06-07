@@ -1,0 +1,12 @@
+.draft-box {
+    padding-top: 45px;
+}
+
+.draft-box .draft-card {
+    padding: 10px 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.draft-box .draft-card p {
+    margin-bottom: 0;
+}

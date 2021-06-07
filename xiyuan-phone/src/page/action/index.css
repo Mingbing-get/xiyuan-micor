@@ -1,0 +1,13 @@
+.action-box {
+    padding-top: 45px;
+    padding-bottom: 5px;
+}
+
+.action-box .ant-tabs-top > .ant-tabs-nav {
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+.action-box .ant-tabs-top > .ant-tabs-nav .ant-tabs-tab {
+    margin: 0 20px;
+}

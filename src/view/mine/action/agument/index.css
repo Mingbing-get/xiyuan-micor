@@ -1,0 +1,17 @@
+.agument-box {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.agument-box>p {
+    margin: 10px 0;
+    word-break: break-all;
+}
+
+.agument-box>span {
+    margin-right: 10px;
+}
+
+.agument-box>span.time-box {
+    color: #999;
+}

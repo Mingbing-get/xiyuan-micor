@@ -1,0 +1,24 @@
+.description-edt-box {
+    border: 1px solid #ddd;
+}
+
+.description-edt-box .ant-input-group.ant-input-group-compact {
+    display: flex;
+    flex-direction: row;
+}
+
+.description-edt-box .description-one-box {
+    border-bottom: 1px solid #ddd;
+}
+
+.description-edt-box .description-one-box .description-one-title {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description-edt-box .description-one-box .description-one-title>h5 {
+    margin-bottom: 0;
+    font-size: 16px;
+}

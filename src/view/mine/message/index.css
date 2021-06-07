@@ -1,0 +1,106 @@
+.message-box {
+    width: 1000px;
+    height: 700px;
+    margin: 20px auto 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.message-box .message-menu {
+    width: 250px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.message-box .message-menu .message-muser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.message-box .message-menu .message-muser>div:last-child>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.message-box .message-menu .message-muser>div:last-child>div>p {
+    margin: 0;
+    -webkit-box-orient: vertical;
+    height: 19px;
+    line-height: 19px;
+    width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    word-break: break-all;
+    color: #999;
+}
+
+.message-box .message-menu.ant-menu-inline .ant-menu-item-selected .message-muser>div:last-child>div>p,
+.message-box .message-menu.ant-menu-inline .ant-menu-item-active .message-muser>div:last-child>div>p {
+    color: rgba(24,144,255,0.6);
+}
+
+.message-box .message-menu .message-muser>div:first-child {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+.message-box .message-menu .message-muser>div:last-child {
+    flex: 1;
+}
+
+.message-box .message-menu .message-muser .message-name-time>span:first-child {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.message-box .message-menu.ant-menu-inline .ant-menu-item {
+    padding: 10px !important;
+    height: auto;
+    line-height: normal;
+}
+
+.message-box .message-menu.ant-menu-inline .ant-menu-item::after {
+    display: none;
+}
+
+.message-box .message-menu::-webkit-scrollbar {
+    display: none;
+}
+
+.message-box .message-content {
+    flex: 1;
+}
+
+.message-box .talk-box-header {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+}
+
+.message-box .talk-box-header>span:first-child {
+    cursor: pointer;
+}
+
+.message-box .talk-box-header>span {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}

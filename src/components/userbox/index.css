@@ -1,0 +1,39 @@
+.follow-box {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.follow-box .follow-info {
+    margin-left: 20px;
+    color: #999;
+}
+
+.follow-box .follow-info>p {
+    margin-bottom: 0;
+}
+
+.follow-box .follow-info>p:first-child {
+    font-weight: bold;
+    color: #333;
+}
+
+.follow-box .follow-info>p:first-child>span {
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.follow-box .follow-info>div>span {
+    padding: 0 8px;
+    border-right: 1px solid #ddd;
+}
+
+.follow-box .follow-info>div>span:first-child {
+    padding-left: 0;
+}
+
+.follow-box .follow-info>div>span:last-child {
+    border-right: none;
+}

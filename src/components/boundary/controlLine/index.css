@@ -1,0 +1,21 @@
+.control-line {
+    position: absolute;
+    padding: 0 3px;
+    height: 100%;
+    top:0;
+    cursor: ew-resize;
+    width: 1px;
+    z-index: 100;
+    box-sizing: content-box;
+}
+
+.control-line>div {
+    height: 100%;
+    border-right: 1px solid #1890ff;
+    margin: 0 auto;
+    width: 0;
+}
+
+.control-line:hover>div {
+    box-shadow: 0 0 3px #1890ff;
+}

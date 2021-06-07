@@ -1,0 +1,23 @@
+.updatemine-box {
+    padding-top: 45px;
+}
+.touxiang-box {
+
+}
+
+.touxiang-box>input{
+    display: none;
+}
+
+.update-img {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.update-btn-box>button {
+    margin-top: 10px;
+}

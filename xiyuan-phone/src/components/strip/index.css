@@ -1,0 +1,28 @@
+.srtip-box {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.srtip-box:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.srtip-box .strip-left {
+    flex: 1;
+}
+
+.srtip-box .strip-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.srtip-box .strip-right span {
+    margin-left: 10px;
+}
+
+

@@ -1,0 +1,28 @@
+.card-edt-box {
+    border: 1px solid #ddd;
+}
+
+.card-edt-box .ant-input-group.ant-input-group-compact {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-edt-box .card-one-box {
+    border-bottom: 1px solid #ddd;
+}
+
+.card-edt-box .card-one-box>label {
+    font-size: 16px;
+}
+
+.card-edt-box .card-one-box .card-one-title {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-edt-box .card-one-box .card-one-title>h5 {
+    margin-bottom: 0;
+    font-size: 16px;
+}

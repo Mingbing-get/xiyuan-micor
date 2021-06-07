@@ -1,0 +1,14 @@
+.info-box {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info-box .info-right {
+    margin-left: 10px;
+    flex: 1;
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.login-box {
+    padding-top: 45px;
+}
+
+.login-box .ant-form-item {
+    margin-bottom: 0;
+}
+
+.login-box .ant-form-item .ant-form-item-label {
+    padding-bottom: 0;
+}
+
+.login-box .login-btn-box {
+    padding-top: 10px;
+}
+
+.login-box .login-btn-box .ant-form-item-control-input-content {
+    text-align: center;
+}
+
+.login-box .login-btn-box .ant-form-item-control-input-content>button {
+    margin: 0 10px;
+}

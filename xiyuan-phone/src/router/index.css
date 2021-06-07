@@ -1,0 +1,38 @@
+.router-box {
+    display: flex;
+    flex-direction: row;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    z-index: 1000;
+
+    background-color: #fff;
+}
+
+.router-box a{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+    font-size: 12px;
+    text-decoration: none;
+    padding: 3px 0;
+    border-top: 1px solid #ddd;
+}
+
+.router-box a .ant-badge {
+    color: inherit;
+}
+
+.router-box a .anticon>svg {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.router-box a:hover,
+.router-box a.active {
+    color: #1890ff;
+}

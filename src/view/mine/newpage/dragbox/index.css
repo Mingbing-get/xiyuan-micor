@@ -1,0 +1,26 @@
+.drag-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #1890ff;
+    padding: 5px 28px 5px 0;
+}
+
+.drag-box:hover {
+    border-color: red;
+}
+
+.drag-box>p {
+    width: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.drag-box>span {
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    color: #1890ff;
+    cursor: pointer;
+}

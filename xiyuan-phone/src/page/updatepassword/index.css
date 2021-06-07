@@ -1,0 +1,15 @@
+.update-password-box {
+    padding-top: 45px;
+}
+
+.update-password-box .ant-form-item {
+    margin-bottom: 0;
+}
+
+.update-password-box .ant-form-item .ant-form-item-label {
+    padding-bottom: 0;
+}
+
+.update-password-box .update-password-btn-box {
+    padding-top: 10px;
+}

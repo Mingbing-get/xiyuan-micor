@@ -1,0 +1,12 @@
+.images-show-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.images-show-footer {
+    word-break: break-all;
+    color: #999;
+}

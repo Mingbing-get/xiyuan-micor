@@ -1,0 +1,49 @@
+.carousel-edt-box {
+    border: 1px solid #ddd;
+}
+
+.carousel-edt-box .ant-input-group.ant-input-group-compact {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-edt-box .carousel-edt-switch-box {
+    padding: 5px 0;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.carousel-edt-box .carousel-edt-one {
+    margin-top: 10px;
+}
+
+.carousel-edt-box .carousel-edt-one .one-title h5 {
+    margin-bottom: 0;
+}
+
+.carousel-edt-box .carousel-edt-one .one-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2px;
+}
+
+.carousel-edt-box .carousel-edt-one .one-row {
+    padding: 5px 0;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.carousel-edt-box .carousel-edt-one .one-row>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

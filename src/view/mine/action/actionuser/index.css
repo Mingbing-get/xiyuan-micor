@@ -1,0 +1,48 @@
+.action-user-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.action-user-box .touxiang {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.action-user-box .mun-box {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+}
+
+.action-user-box .mun-box>p {
+    margin: 0;
+    font-size: 14px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ddd;
+    height: 32px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.action-user-box .mun-box>p:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+    cursor: text;
+}
+
+.action-user-box .mun-box>p>span {
+    font-size: 12px;
+}
+
+.action-user-box .btn-box>button {
+    margin-right: 10px;
+    border-radius: 16px;
+}

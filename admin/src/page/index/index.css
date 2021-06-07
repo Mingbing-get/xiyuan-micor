@@ -1,0 +1,46 @@
+.index-box {
+    height: 100%;
+}
+
+.index-box .index-admin-box {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.index-box .index-admin-box .anticon-ellipsis {
+    color: white;
+    font-size: 16px;
+}
+
+.index-box .index-admin-box>h4 {
+    color: white;
+    text-align: center;
+}
+
+.index-box .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.index-box .trigger:hover {
+    color: #1890ff;
+}
+
+.index-box .site-layout .site-layout-background {
+    background: #fff;
+}
+
+.index-box .site-layout main.site-layout-background {
+    margin: 24px 16px;
+    padding: 24px;
+
+    overflow: auto;
+}

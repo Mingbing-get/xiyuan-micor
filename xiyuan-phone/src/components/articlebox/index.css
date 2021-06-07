@@ -1,0 +1,42 @@
+.article-box {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.article-box>h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.article-box.gray {
+    color: #999;
+    border-bottom: none;
+}
+
+.article-box.gray>h5 {
+    cursor: pointer;
+    margin-bottom: 0;
+    color: #999;
+}
+
+.article-box>h4 {
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.article-box>p {
+    -webkit-box-orient: vertical;
+    height: 32px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+    margin: 5px 0;
+}
+
+.article-box .show-mun>span {
+    margin-right: 15px;
+    font-size: 12px;
+}

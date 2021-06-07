@@ -1,0 +1,28 @@
+.get-copy-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.get-copy-box>p {
+    margin: 0 0 0 10px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.get-copy-box>button {
+    margin-right: 10px;
+}
+
+.get-copy-box>textarea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -10;
+}
+
+.get-copy-box .anticon-copy {
+    font-size: 18px;
+    cursor: pointer;
+}

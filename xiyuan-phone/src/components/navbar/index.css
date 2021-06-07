@@ -1,0 +1,30 @@
+.navbar-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 45px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    padding: 0 10px;
+    background-color: white;
+    z-index: 100;
+}
+.navbar-box .navbar-left {
+    margin-right: 10px;
+    color: #1890ff;
+}
+.navbar-box .navbar-right>span>svg,
+.navbar-box .navbar-left>span>svg {
+    font-size: 16px;
+    font-weight: bold;
+}
+.navbar-box .navbar-title {
+    flex: 1;
+    text-align: center;
+}
+.navbar-box .navbar-right {
+    margin-left: 10px;
+    color: #1890ff;
+}

@@ -1,0 +1,9 @@
+.boundary-item-box {
+    position: relative;
+}
+
+.boundary-item-box .boundary-item-content {
+    overflow: auto;
+    max-height: 100%;
+    height: 100%;
+}

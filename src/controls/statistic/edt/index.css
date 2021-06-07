@@ -1,0 +1,33 @@
+.statistic-edt-box {
+    border: 1px solid #ddd;
+}
+
+.statistic-edt-box .ant-input-group.ant-input-group-compact {
+    display: flex;
+    flex-direction: row;
+}
+
+.statistic-edt-box .statistic-edt-switch-box {
+    height: 32px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.statistic-edt-box .statistic-edt-one {
+    margin-top: 10px;
+}
+
+.statistic-edt-box .statistic-edt-one .one-title h5 {
+    margin-bottom: 0;
+}
+
+.statistic-edt-box .statistic-edt-one .one-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2px;
+}

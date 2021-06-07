@@ -1,0 +1,4 @@
+.timeline-show-box {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,33 @@
+.timeline-edt-box {
+    border: 1px solid #ddd;
+}
+
+.timeline-edt-box .ant-input-group.ant-input-group-compact {
+    display: flex;
+    flex-direction: row;
+}
+
+.timeline-edt-box .ant-input-group.ant-input-group-compact>input {
+    flex: 3;
+}
+
+.timeline-edt-box .ant-input-group.ant-input-group-compact>input:first-of-type {
+    flex: 1;
+}
+
+.timeline-edt-box .timeline-one-box {
+    border-bottom: 1px solid #ddd;
+}
+
+.timeline-edt-box .timeline-one-box .timeline-one-title {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.timeline-edt-box .timeline-one-box .timeline-one-title>h5 {
+    margin-bottom: 0;
+    font-size: 16px;
+}

@@ -1,0 +1,19 @@
+.boundary-outer-box {
+    overflow: hidden;
+}
+
+.boundary-box {
+    margin: 5px;
+    position: relative;
+}
+
+.boundary-box .boundary-content {
+    border: 1px solid #1890ff;
+
+    display: flex;
+    box-sizing: border-box;
+}
+
+.boundary-box .boundary-content.noborder {
+    border: none;
+}

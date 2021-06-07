@@ -1,0 +1,138 @@
+.centerBox>.tipTitle,
+.dragBox>.tipTitle,
+.showBox>.tipTitle {
+    color: #1890ff;
+    border-bottom: 1px solid #1890ff;
+    line-height: 36px;
+    padding-left: 5px;
+    margin-bottom: 0;
+}
+
+.showBox>.tipTitle {
+    line-height: 34px;
+}
+
+.centerBox>.tipTitle>h3,
+.dragBox>.tipTitle>h3,
+.showBox>.tipTitle>h3 {
+    color: #1890ff;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.dragBox {
+    padding-bottom: 10px;
+    overflow: auto;
+    min-width: 100px;
+}
+.dragBox .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 12px 5px 20px;
+}
+.dragBox .ant-collapse > .ant-collapse-item.active > .ant-collapse-header,
+.dragBox .ant-collapse > .ant-collapse-item > .ant-collapse-header:hover {
+    background-color: #1890ff;
+}
+.dragBox .ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+    top: 10px;
+    left: 3px;
+}
+.dragBox .ant-collapse-ghost > .ant-collapse-item > .ant-collapse-content > .ant-collapse-content-box {
+    padding: 0 5px;
+}
+.dragBox .edt-close {
+    color: #ff4d4f;
+}
+.dragBox .serch-btn {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.dropBox {
+    padding: 0 3px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #1890ff;
+}
+
+.dropBox .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    border-bottom: 1px solid #ddd;
+}
+
+.dropBox .ant-collapse > .ant-collapse-item.active > .ant-collapse-header,
+.dropBox .ant-collapse > .ant-collapse-item > .ant-collapse-header:hover {
+    background-color: #1890ff;
+}
+
+.dropBox .ant-collapse-ghost > .ant-collapse-item > .ant-collapse-content > .ant-collapse-content-box {
+    padding: 0;
+}
+
+.showBox .show-outer.active{
+    box-shadow: 0 0 3px #1890ff;
+}
+
+.dropBox .edt-extra>span {
+    margin-left: 5px;
+    background-color: #fff;
+    font-size: 18px;
+    color: #1890ff;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.dropBox .edt-extra>span.disabled {
+    color: #ddd;
+}
+
+.dropBox .edt-extra>.edt-close {
+    color: #ff4d4f;
+}
+
+.centerBox .drop-btn-box {
+    padding: 5px;
+}
+
+.showBox {
+    min-width: 300px;
+    position: relative;
+}
+
+.showBox>iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    display: block;
+    z-index: -999;
+}
+
+.showBox .page-title {
+    text-align: center;
+}
+
+.showBox .show-area {
+    transform-origin: 0 0;
+}
+
+.showBox .show-outer {
+
+}
+
+.serch-more-style {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.serch-more-style:first-child {
+    margin-top: 0;
+}
+.serch-more-style > span {
+    width: 90px;
+}
+.serch-more-style > div {
+    flex: 1;
+}
